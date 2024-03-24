@@ -1,0 +1,8 @@
+.progress {
+  margin: unset !important;
+  height: auto !important;
+  justify-content: center;
+  align-items: center;
+  color: orchid;
+  background-color: violet;
+}

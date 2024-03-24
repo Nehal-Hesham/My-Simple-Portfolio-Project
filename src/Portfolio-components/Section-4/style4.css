@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 70px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+@media (min-width: 768px) {
+  .cards-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .cards-container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards-container {
+    width: 1170px;
+  }
+}
